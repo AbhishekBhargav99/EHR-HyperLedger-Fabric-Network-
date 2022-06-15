@@ -1,0 +1,384 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 3,
+  "numPassedTests": 19,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 19,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1650527568948,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1650527595150,
+        "runtime": 26148,
+        "slow": true,
+        "start": 1650527569002
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/jerry_20/Desktop/ehrHf/fabric-samples/JestTests/tests/patientTests.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Connecting To Network"
+          ],
+          "duration": 1776,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Connecting To Network should connect to network By Patient Id ",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should connect to network By Patient Id "
+        },
+        {
+          "ancestorTitles": [
+            "Connecting To Network"
+          ],
+          "duration": 1510,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Connecting To Network should connect to network By Doctor Id ",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should connect to network By Doctor Id "
+        },
+        {
+          "ancestorTitles": [
+            "Connecting To Network"
+          ],
+          "duration": 1714,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Connecting To Network should connect to network By Admin Id ",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should connect to network By Admin Id "
+        },
+        {
+          "ancestorTitles": [
+            "Connecting To Network"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Connecting To Network should not read Patient for wrong Id",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not read Patient for wrong Id"
+        },
+        {
+          "ancestorTitles": [
+            "Read Patient Personnel Information"
+          ],
+          "duration": 1682,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Read Patient Personnel Information should Read personel Information Based on correct Patient Id",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should Read personel Information Based on correct Patient Id"
+        },
+        {
+          "ancestorTitles": [
+            "Read Patient Personnel Information"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Read Patient Personnel Information should not Read personel Information Based on incorrect Patient Id",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not Read personel Information Based on incorrect Patient Id"
+        },
+        {
+          "ancestorTitles": [
+            "Grant and Revoke Permissions from Doctors"
+          ],
+          "duration": 5256,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Grant and Revoke Permissions from Doctors Grant Permissions to Doctor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Grant Permissions to Doctor"
+        },
+        {
+          "ancestorTitles": [
+            "Grant and Revoke Permissions from Doctors"
+          ],
+          "duration": 6372,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Grant and Revoke Permissions from Doctors Add Medical Record by Doctor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Add Medical Record by Doctor"
+        },
+        {
+          "ancestorTitles": [
+            "Grant and Revoke Permissions from Doctors"
+          ],
+          "duration": 5610,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Grant and Revoke Permissions from Doctors Revoke Permissions from Doctor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Revoke Permissions from Doctor"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1650527615955,
+        "runtime": 20751,
+        "slow": true,
+        "start": 1650527595204
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/jerry_20/Desktop/ehrHf/fabric-samples/JestTests/tests/adminTests.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Add New Patient"
+          ],
+          "duration": 10391,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add New Patient Should be able to add new Patients",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should be able to add new Patients"
+        },
+        {
+          "ancestorTitles": [
+            "Add New Patient"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add New Patient should not be able to add patient as Admin Id Incorrect",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not be able to add patient as Admin Id Incorrect"
+        },
+        {
+          "ancestorTitles": [
+            "Add new Doctor"
+          ],
+          "duration": 2458,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add new Doctor should be able to add new Doctor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be able to add new Doctor"
+        },
+        {
+          "ancestorTitles": [
+            "Retreive Data"
+          ],
+          "duration": 2033,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Retreive Data should be able to get all the History of all Patients with limited Fields",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be able to get all the History of all Patients with limited Fields"
+        },
+        {
+          "ancestorTitles": [
+            "Retreive Data"
+          ],
+          "duration": 1719,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Retreive Data should be able to retrieve all Doctors of the Hospital",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be able to retrieve all Doctors of the Hospital"
+        },
+        {
+          "ancestorTitles": [
+            "should be able to read all the patients registered"
+          ],
+          "duration": 1700,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "should be able to read all the patients registered view all Patients by limited Fields",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "view all Patients by limited Fields"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1650527633392,
+        "runtime": 17415,
+        "slow": true,
+        "start": 1650527615977
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/home/jerry_20/Desktop/ehrHf/fabric-samples/JestTests/tests/doctorTests.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Add New Medical Record"
+          ],
+          "duration": 6240,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add New Medical Record Grant Permissions to Doctor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Grant Permissions to Doctor"
+        },
+        {
+          "ancestorTitles": [
+            "Add New Medical Record"
+          ],
+          "duration": 2254,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add New Medical Record should be able to read Patient History",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should be able to read Patient History"
+        },
+        {
+          "ancestorTitles": [
+            "Add New Medical Record"
+          ],
+          "duration": 5130,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add New Medical Record Revoke Permission of Doctor",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Revoke Permission of Doctor"
+        },
+        {
+          "ancestorTitles": [
+            "Add New Medical Record"
+          ],
+          "duration": 1675,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Add New Medical Record should not be able to read Patient History as Permission Revoked",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should not be able to read Patient History as Permission Revoked"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}

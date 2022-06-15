@@ -1,0 +1,25 @@
+{
+  "name": "jesttests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --reporters default jest-stare --config ./jest-config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-html-reporter": "^3.4.2"
+  },
+  "reporters": [
+    "default",
+    "jest-stare"
+  ],
+  "testResultsProcessor": "./node_modules/jest-stare",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jest-stare": "^2.3.0"
+  }
+}

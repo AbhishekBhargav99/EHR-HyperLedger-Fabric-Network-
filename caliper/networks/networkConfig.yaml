@@ -1,0 +1,26 @@
+name: Caliper test
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+  sutOptions:
+    mutualTls: true
+
+channels:
+  - channelName: hospitalchannel
+    contracts:
+      - id: patient
+
+organizations:
+  - mspid: hosp1MSP
+    identities:
+      certificates:
+        - name: "User1"
+          clientPrivateKey:
+            path: '/home/jerry_20/Desktop/ehrHf/fabric-samples/hospitalNetworks/organizations/peerOrganizations/hosp1.ehrNet.com/users/User1@hosp1.ehrNet.com/msp/keystore/421f886a87b8021f9ea4c507f21ee6d42e1bb2a4b63adcadd4e247ddeb54f79a_sk'
+          clientSignedCert:
+            path: '/home/jerry_20/Desktop/ehrHf/fabric-samples/hospitalNetworks/organizations/peerOrganizations/hosp1.ehrNet.com/users/User1@hosp1.ehrNet.com/msp/signcerts/cert.pem'
+    connectionProfile:
+      path: '/home/jerry_20/Desktop/ehrHf/fabric-samples/hospitalNetworks/organizations/peerOrganizations/hosp1.ehrNet.com/connection-hosp1.yaml'
+      discover: true
+  

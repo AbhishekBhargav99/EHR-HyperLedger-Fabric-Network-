@@ -1,0 +1,44 @@
+test:
+  name: basic-contract-benchmark
+  description: A test benchmark
+  workers:
+    type: local
+    number: 10
+  rounds:
+    - label: createAsset
+      description: Create asset benchmark
+      txNumber: 1000
+      rateControl:
+        { type: "linear-rate", opts: { startingTps: 5, finishingTps: 30 } }
+      workload:
+        module: workload/createAsset.js
+        arguments:
+          contractId: patient
+    - label: readAsset
+      description: Read asset benchmark
+      txDuration: 60
+      rateControl: { type: "fixed-load", opts: { transactionLoad: 5 } }
+      workload:
+        module: workload/readAsset.js
+        arguments:
+          assets: 10
+          contractId: patient
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 4
+        containers:
+          [
+            "peer0.hosp1.ehrNet.com",
+            "peer0.hosp2.ehrNet.com",
+            "peer0.hosp3.ehrNet.com",
+            "ca_hosp1",
+            "ca_hosp2",
+            "ca_hosp3",
+            "orderer.ehrNet.com",
+            "couchdb.hosp1.ehrNet.com",
+            "couchdb.hosp2.ehrNet.com",
+            "couchdb.hosp3.ehrNet.com"
+          ]

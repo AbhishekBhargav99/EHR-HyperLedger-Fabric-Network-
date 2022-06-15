@@ -1,0 +1,34 @@
+[
+    {
+        "id": "Doc-1",
+        "hospitalId": "1",
+        "firstName": "Rajiv",
+        "lastName": "Shukla",
+        "speciality": "Neurology",
+        "email" : "rajiv124@gmail.com"
+    },
+    {
+        "id": "Doc-2",
+        "hospitalId": "1",
+        "firstName": "Ashok",
+        "lastName": "Chaturvedi",
+        "speciality": "Cardiology",
+        "email" : "ashok120@gmail.com"
+    },
+    {
+        "id": "Doc-3",
+        "hospitalId": "2",
+        "firstName": "Amol",
+        "lastName": "Uttam",
+        "speciality": "Cardiology",
+        "email" : "amol414@gmail.com"
+    },
+    {
+        "id": "Doc-4",
+        "hospitalId": "2",
+        "firstName": "Henry",
+        "lastName": "Kissinger",
+        "speciality": "ENT",
+        "email" : "henry919@gmail.com"
+    }
+]

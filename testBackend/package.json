@@ -1,0 +1,16 @@
+{
+  "name": "testbackend",
+  "version": "1.0.0",
+  "description": "Testing the connection to network using js",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Bhargav",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-ca-client": "^2.2.11",
+    "fabric-network": "^2.2.11",
+    "redis": "^3.0.2"
+  }
+}

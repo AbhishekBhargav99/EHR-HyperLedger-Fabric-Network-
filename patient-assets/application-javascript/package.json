@@ -1,0 +1,18 @@
+{
+  "name": "application-javascript",
+  "version": "1.0.0",
+  "description": "Patient application in javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Abhishek Bhargav",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-ca-client": "^2.2.11",
+    "fabric-network": "^2.2.11"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
