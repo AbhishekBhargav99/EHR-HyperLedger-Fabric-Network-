@@ -1,0 +1,48 @@
+{
+	"name": "ehrnet-network_hospital",
+	"version": "1.0.0",
+	"client": {
+		"tlsEnable": false,
+		"adminCredential": {
+			"id": "exploreradmin",
+			"password": "exploreradminpw"
+		},
+		"enableAuthentication": true,
+		"organization": "hosp1MSP",
+		"connection": {
+			"timeout": {
+				"peer": {
+					"endorser": "300"
+				},
+				"orderer": "300"
+			}
+		}
+	},
+	"channels": {
+		"hospitalchannel": {
+			"peers": {
+				"peer0.hosp1.ehrNet.com": {}
+			}
+		}
+	},
+	"organizations": {
+		"hosp1MSP": {
+			"mspid": "hosp1MSP",
+			"adminPrivateKey": {
+				"path": "/tmp/crypto/peerOrganizations/hosp1.ehrNet.com/users/Admin@hosp1.ehrNet.com/msp/keystore/bdda635e688bc1436f1ac30db7056a6dd4d99a43abfbffa66b6a58fb8094037f_sk"
+			},
+			"peers": ["peer0.hosp1.ehrNet.com"],
+			"signedCert": {
+				"path": "/tmp/crypto/peerOrganizations/hosp1.ehrNet.com/users/Admin@hosp1.ehrNet.com/msp/signcerts/cert.pem"
+			}
+		}
+	},
+	"peers": {
+		"peer0.hosp1.ehrNet.com": {
+			"tlsCACerts": {
+				"path": "/tmp/crypto/peerOrganizations/hosp1.ehrNet.com/peers/peer0.hosp1.ehrNet.com/tls/ca.crt"
+			},
+			"url": "grpcs://peer0.hosp1.ehrNet.com:7051"
+		}
+	}
+}
